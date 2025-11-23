@@ -6,13 +6,11 @@ para armazenamento de tarefas organizadas por usuário.
 
 O sistema possui:
 
-✔️ Tela de Login e Registro\
-✔️ Tela Home com lista de tarefas\
-✔️ CRUD completo (Criar, Ler, Atualizar e Deletar tarefas)\
-✔️ Organização das tasks por usuário no Firestore (`users/{uid}/tasks`)\
-✔️ Navegação com Navigation Compose\
-✔️ Arquitetura desacoplada com ViewModels + Repository\
-✔️ Regras seguras do Firestore\
+✔️ Tela de Login e Registro
+✔️ Tela Home com lista de tarefas
+✔️ CRUD completo (Criar, Ler, Atualizar e Deletar tarefas)
+✔️ Organização das tasks por usuário no Firestore (`users/{uid}/tasks`)
+✔️ Navegação com Navigation Compose
 ✔️ Telas estilizadas com Material 3
 
 ------------------------------------------------------------------------
@@ -51,7 +49,6 @@ O sistema possui:
 -   Jetpack Compose
 -   Material Design 3
 -   Navigation Compose
--   ViewModel + State Hoisting
 
 ### **Backend**
 
@@ -87,24 +84,24 @@ O sistema possui:
 
 ### ✔ Login & Registro
 
--   Autenticação com email e senha\
--   Validações\
+-   Autenticação com email e senha
+-   Validações
 -   Feedback visual
 
 ### ✔ Tela Inicial (Home)
 
--   Lista de tarefas do usuário logado\
--   Botão para adicionar novas tarefas\
--   Ação de logout\
--   Botão para excluir tarefas\
+-   Lista de tarefas do usuário logado
+-   Botão para adicionar novas tarefas
+-   Ação de logout
+-   Botão para excluir tarefas
 -   Navegação para editar tarefa
 
 ### ✔ CRUD completo
 
--   Criar tarefa\
--   Editar tarefa\
--   Excluir tarefa\
--   Listar tarefas\
+-   Criar tarefa
+-   Editar tarefa
+-   Excluir tarefa
+-   Listar tarefas
 -   Salvar no Firestore por usuário
 
 ### ✔ Firestore estruturado por usuário
