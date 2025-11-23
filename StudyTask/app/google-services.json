@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735139753474",
+    "project_id": "studytask-172c4",
+    "storage_bucket": "studytask-172c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735139753474:android:a8f3d47694c55c54b4411b",
+        "android_client_info": {
+          "package_name": "com.example.studytask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ6xXHCNI8LlzbVq_IhIehQYhd1gE3jRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
