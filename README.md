@@ -22,14 +22,27 @@ O sistema possui:
 > Adicione aqui seus prints reais:
 
 -   Tela de Login\
-![alt text](<Imagem do WhatsApp de 2025-11-23 à(s) 18.26.59_56a4c23b.jpg>)
+<img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/4f077179-ef17-4a26-bbeb-85973e920c7e" />
+
+------------------------------------------------------------------------
+
 -   Tela Home\
-![alt text](<Imagem do WhatsApp de 2025-11-23 à(s) 18.27.00_892a38fd.jpg>)
+<img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/7122a61b-358f-42ba-bced-6056ead2e91c" />
+
+------------------------------------------------------------------------
+
 -   Tela de Nova/Editar Tarefa\
-![alt text](<Imagem do WhatsApp de 2025-11-23 à(s) 18.27.00_eb354c13.jpg>)
+<img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/b1d65278-8d14-4978-994b-7e45595be55a" />
+
+------------------------------------------------------------------------
+
 -   Print do Firestore mostrando `users/{uid}/tasks`
-![alt text](image.png)
-![alt text](image-1.png)
+<img width="1158" height="485" alt="image" src="https://github.com/user-attachments/assets/fa4a89b4-fd0f-43b9-8109-e58d1ff5ca21" />
+
+------------------------------------------------------------------------
+
+<img width="1322" height="727" alt="image" src="https://github.com/user-attachments/assets/6410d7f7-83df-45a6-9bf4-8753f00a9e70" />
+
 ------------------------------------------------------------------------
 
 # 🛠️ Tecnologias Utilizadas
@@ -46,7 +59,6 @@ O sistema possui:
 
 -   Firebase Authentication
 -   Firebase Firestore
--   Firebase BoM
 
 
 ------------------------------------------------------------------------
@@ -70,35 +82,6 @@ O sistema possui:
                 ├── LoginScreen.kt
                 ├── HomeScreen.kt
                 └── TaskFormScreen.kt
-
-------------------------------------------------------------------------
-
-# 🔐 Regras do Firestore (Security Rules)
-
-O app usa subcoleções organizadas por usuário:
-
-    users/{uid}/tasks/{taskId}
-
-Regras:
-
-``` txt
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-
-    match /users/{userId}/tasks/{taskId} {
-      allow read, write: if request.auth != null
-                         && request.auth.uid == userId;
-    }
-  }
-}
-```
-
-Essas regras garantem:
-
-✔ Cada usuário só vê suas próprias tarefas\
-✔ Cada task pertence a apenas um usuário\
-✔ Escreve e lê apenas se estiver autenticado
 
 ------------------------------------------------------------------------
 
