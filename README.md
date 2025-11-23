@@ -19,22 +19,22 @@ O sistema possui:
 
 # 📸 Demonstração do App
 
--   Tela de Login\
+-   Tela de Login
 <img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/4f077179-ef17-4a26-bbeb-85973e920c7e" />
 
 ------------------------------------------------------------------------
 
--   Tela Home\
+-   Tela Home
 <img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/7122a61b-358f-42ba-bced-6056ead2e91c" />
 
 ------------------------------------------------------------------------
 
--   Tela de Nova/Editar Tarefa\
+-   Tela Criar Tarefa
 <img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/b1d65278-8d14-4978-994b-7e45595be55a" />
 
 ------------------------------------------------------------------------
 
--   Print do Firestore mostrando `users/{uid}/tasks`
+-   Print do Firebase
 <img width="1158" height="485" alt="image" src="https://github.com/user-attachments/assets/fa4a89b4-fd0f-43b9-8109-e58d1ff5ca21" />
 
 ------------------------------------------------------------------------
