@@ -19,8 +19,6 @@ O sistema possui:
 
 # 📸 Demonstração do App
 
-> Adicione aqui seus prints reais:
-
 -   Tela de Login\
 <img width="485" height="1158" alt="image" src="https://github.com/user-attachments/assets/4f077179-ef17-4a26-bbeb-85973e920c7e" />
 
